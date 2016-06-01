@@ -1,4 +1,4 @@
-(ns clojure-study.function)
+(ns study.function)
 
 (println "defで関数定義")
 ; fn は無名関数

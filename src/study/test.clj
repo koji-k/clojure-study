@@ -1,6 +1,9 @@
-(ns clojure_study.test)
+(ns study.test)
 (+ (+ 1 (* 2 3)) (* 4 5))
 
+; 関数定義
+; REPLから読み込む際は(require 'study.test)を実行して、(study.test/f)で実行できる。
+; ソースを修正したら、(require 'study.test :reload)で再読込する必要がある。
 (defn f [x] (+ x 1))
 (f 2)
 ((fn [x] (+ x 1)) 1)

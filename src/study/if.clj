@@ -1,4 +1,4 @@
-(ns clojure-study.if)
+(ns study.if)
 
 (defn if-test1
   [n]

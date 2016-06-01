@@ -1,4 +1,4 @@
-(ns clojure-study.collection)
+(ns study.collection)
 (println "aaa")
 
 (println
